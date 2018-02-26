@@ -22,11 +22,9 @@
       "stage-2"
     ]
   },
-  "devDependencies": {
-    "babel-eslint": "^8.0.1",
-    "eslint-plugin-react": "^7.4.0"
-  },
   "dependencies": {
+  "babel-eslint": "^8.0.1",
+  "eslint-plugin-react": "^7.4.0",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-polyfill": "^6.26.0",

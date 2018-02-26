@@ -5,10 +5,14 @@
   "repository": "git@github.com:solo800/boilerplate-react-with-node.git",
   "author": "Adam <adameliot1@gmail.com>",
   "license": "MIT",
+  "engines": {
+      "node": "6.5.1"
+  },
   "scripts": {
     "start": "pm2 start server.js --watch --interpreter babel-node",
     "stop": "pm2 stop server.js",
-    "webpack": "webpack -wd"
+    "webpack": "webpack -wd",
+    "postinstall": "webpack"
   },
   "babel": {
     "presets": [

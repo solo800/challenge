@@ -12,7 +12,7 @@
   "scripts": {
     "start": "pm2 start server.js --watch --interpreter babel-node",
     "stop": "pm2 stop server.js",
-    "webpack": "webpack",
+    "webpack": "webpack"
   },
   "babel": {
     "presets": [

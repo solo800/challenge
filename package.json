@@ -6,7 +6,8 @@
   "author": "Adam <adameliot1@gmail.com>",
   "license": "MIT",
   "engines": {
-      "node": "6.5.1"
+      "node": "6.11.1",
+      "yarn": "1.2.1"
   },
   "scripts": {
     "start": "pm2 start server.js --watch --interpreter babel-node",

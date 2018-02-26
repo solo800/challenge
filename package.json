@@ -1,8 +1,8 @@
 {
-  "name": "boilerplate-react-with-node",
+  "name": "challenge",
   "version": "1.0.0",
   "main": "server.js",
-  "repository": "git@github.com:solo800/boilerplate-react-with-node.git",
+  "repository": "git@github.com:solo800/challenge.git",
   "author": "Adam <adameliot1@gmail.com>",
   "license": "MIT",
   "engines": {

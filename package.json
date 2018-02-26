@@ -10,9 +10,9 @@
       "yarn": "1.2.1"
   },
   "scripts": {
-    "start": "pm2 start server.js --watch --interpreter babel-node",
+    "start": "babel-node",
     "stop": "pm2 stop server.js",
-    "webpack": "webpack -wd",
+    "webpack": "webpack",
     "postinstall": "webpack"
   },
   "babel": {

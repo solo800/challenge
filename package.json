@@ -10,7 +10,7 @@
       "yarn": "1.2.1"
   },
   "scripts": {
-    "start": "pm2 start server.js --watch --interpreter babel-node",
+    "start": "node server.js",
     "stop": "pm2 stop server.js",
     "webpack": "webpack"
   },
@@ -31,7 +31,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
     "css-loader": "^0.28.10",
-    "cssnext-loader": "^1.0.1",
     "ejs": "^2.5.7",
     "express": "^4.16.2",
     "extract-text-webpack-plugin": "^3.0.2",
